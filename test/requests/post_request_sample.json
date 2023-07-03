@@ -1,0 +1,13 @@
+{
+    "task": {
+      "provider": "xto",
+      "app_key": "xto.aldo_lab_task_app",
+      "asset_id": 24769915,
+      "properties": {
+        "discounted_revenue": 1574832,
+        "discounted_operating_costs": 200000,
+        "drilling_and_completions_costs": 1000000,
+        "timestamp": 1672444526
+      }
+    }
+  }

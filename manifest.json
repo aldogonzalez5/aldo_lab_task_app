@@ -27,13 +27,20 @@
       "file": "lambda_function",
       "function": "lambda_handler"
     },
-    "timeout": 120,
-    "memory": 128,
-    "environment": {},
+    "timeout": 240,
+    "memory": 640,
+    "environment": {"LOG_LEVEL": "DEBUG" },
     "runtime": "python3.8",
     "app": {
       "log_type": "time"
     }
   },
-  "datasets": {}
+  "datasets":{
+    "xto.aldo-lab-task-time-app":{
+       "permissions":[
+          "read",
+          "write"
+       ]
+    }
+ }
 }
